@@ -13,10 +13,10 @@ nodes:
           node-labels: "ingress-ready=true"  
   extraPortMappings:
   - containerPort: 80
-    hostPort: 10080
+    hostPort: 11080
     protocol: TCP
   - containerPort: 443
-    hostPort: 10443
+    hostPort: 11443
     protocol: TCP
 - role: worker
   image: kindest/node:v1.19.7@sha256:a70639454e97a4b733f9d9b67e12c01f6b0297449d5b9cbbef87473458e26dca
